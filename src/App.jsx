@@ -6,14 +6,12 @@ import LastNotes from "./LastNotes";
 import Footer from "./Footer";
 
 function App() {
-
   return (
-    <>
+    <div className="background">
       <Header />
       <Note />
-      <LastNotes />
       <Footer />
-    </>
+    </div>
   );
 }
 
